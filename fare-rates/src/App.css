@@ -1,0 +1,25 @@
+* {
+  inline-size: none;
+}
+
+.App {
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ justify-content: space-around;
+}
+
+.card {
+  text-align: center;
+  border: solid 1px;
+  width: 20vw;
+}
+
+.name {
+  border: solid 1px;
+}
+
+
+
+
+
