@@ -1,0 +1,44 @@
+.Card {
+  display: flex;
+  flex-direction: row;
+ justify-content: space-between;
+}
+/* .card {
+      display: grid;
+      grid-template-rows: 1fr 50% 10% 1fr;
+      justify-content: center;
+      border:  1px solid black;
+      height: 30vh;
+      background-color: aqua;
+    } */
+
+.name {
+  text-decoration: white;
+  border:1px solid white;
+  padding: 10px;
+  }
+
+.price {
+  border:1px solid white;
+  padding: 10px;
+}
+
+.speed {
+   font-size: medium;
+}
+
+ .traffic {
+  border:1px solid white;
+         }
+
+ .increase {
+  display: grid;
+  grid-template-rows: 1fr 50% 10% 1fr;
+  justify-content: center;
+  border:  1px solid black;
+  height: 50vh;
+  background-color: red;
+  }
+
+
+  
