@@ -1,13 +1,13 @@
-import './App.css';
+import Card from './components/card';
 import style300 from './components/rate300.modules.css';
 import style450 from './components/rate450.modules.css';
 import style550 from './components/rate550.modules.css';
 import style1000 from './components/rate1000.modules.css';
-import Card from './components/card';
+
 
 function App() {
   return (
-   <div className='Card'>
+   <div className='Cards'>
     <Card
     style= {style300}
     name="300"
@@ -39,6 +39,4 @@ function App() {
   </div>
  );
 }
-
-
 export default App;

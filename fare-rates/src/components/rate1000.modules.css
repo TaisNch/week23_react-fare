@@ -1,4 +1,4 @@
-.card {
+.rate {
   display: grid;
   grid-template-rows: 1fr 50% 10% 1fr;
   justify-content: center;

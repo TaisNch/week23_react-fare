@@ -1,16 +1,15 @@
-.Card {
+.Cards {
   display: flex;
   flex-direction: row;
  justify-content: space-between;
 }
-/* .card {
+.rate_card {
       display: grid;
       grid-template-rows: 1fr 50% 10% 1fr;
       justify-content: center;
       border:  1px solid black;
       height: 30vh;
-      background-color: aqua;
-    } */
+    }
 
 .name {
   text-decoration: white;
