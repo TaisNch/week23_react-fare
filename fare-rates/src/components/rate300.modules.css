@@ -1,8 +1,7 @@
-.rate {
-    display: grid;
-    grid-template-rows: 1fr 50% 10% 1fr;
-    justify-content: center;
-    border:  1px solid black;
-    height: 30vh;
+.name {
     background-color: green;}
+
+  .price 
+  {
+    background-color: green;} 
     

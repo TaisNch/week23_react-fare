@@ -1,9 +1,5 @@
-.Cards {
-  display: flex;
-  flex-direction: row;
- justify-content: space-between;
-}
-.rate_card {
+
+.card {
       display: grid;
       grid-template-rows: 1fr 50% 10% 1fr;
       justify-content: center;
@@ -11,13 +7,13 @@
       height: 30vh;
     }
 
-.name {
+.name_card {
   text-decoration: white;
   border:1px solid white;
   padding: 10px;
   }
 
-.price {
+.price_card {
   border:1px solid white;
   padding: 10px;
 }
@@ -36,7 +32,6 @@
   justify-content: center;
   border:  1px solid black;
   height: 50vh;
-  background-color: red;
   }
 
 
