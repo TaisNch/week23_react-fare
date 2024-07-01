@@ -10,8 +10,8 @@ function Card(props) {
     : (card = 'card')
  return (
         <div className={card}>
-           <div className="name">{props.name}<span> Безлимитный </span>
-            <div className="price">
+           <div className={name}>{props.name}<span> Безлимитный </span>
+            <div className={price}>
                 {props.card} <span className="price_box"> руб/мес</span>
             </div>
          </div>
