@@ -1,7 +1,8 @@
 .name {
-    background-color: green;}
+    background-color: green;
+    text-decoration: white;
+    border:1px solid white;
+    padding: 10px;}
 
-  .price 
-  {
-    background-color: green;} 
+
     

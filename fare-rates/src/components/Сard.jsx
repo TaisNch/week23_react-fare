@@ -1,15 +1,21 @@
-    import "../components/card.css"
+import "../components/card.css"
+import {useState} from "react";
+
 
 function Card(props) {
-    const style = props.style;
-    const name =  `${style.card} name_card`;
-    const price =  `${style.card} price_card`;
+const [pressed, setPressed] = useState(false);
+const handleChange = () => {
+    setPressed(!pressed);
+};
+   const style = props.style;
+    const name =  `${style.name}`;
+    const price =  `${style.price} price_card`;
     let card
    Number(props.price === 550)
     ? (card = 'card increase')
     : (card = 'card')
  return (
-        <div className={card}>
+        <div className ={card}>       
            <div className={name}>{props.name}<span> Безлимитный </span>
             <div className={price}>
                 {props.card} <span className="price_box"> руб/мес</span>
@@ -17,6 +23,10 @@ function Card(props) {
          </div>
             <div className="speed">до {props.speed} Мбит/сек</div>
             <div className="traffic">{props.traffic}</div>
+         <button onClick = {handleChange}
+        style={pressed ? {backgroundColor :"red" } :  {backgroundColor : "yellow"}}>
+            Выбрать тариф
+        </button>
         </div>
      );
   }

@@ -1,7 +1,6 @@
-.name {
-   background-color: red;
-  }
-
-  .price 
-  {
-   background-color: red;}
+.name
+.price {
+    background-color: red;
+    text-decoration: white;
+    border:1px solid white;
+    padding: 10px;}
