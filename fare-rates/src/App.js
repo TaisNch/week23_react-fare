@@ -1,9 +1,9 @@
 import Card from './components/Сard';
 import './App.css';
-import style300 from './components/rate300.modules.css';
-import style450 from './components/rate450.modules.css';
-import style550 from './components/rate550.modules.css';
-import style1000 from './components/rate1000.modules.css';
+import style300 from './components/rate300.module.css';
+import style450 from './components/rate450.module.css';
+import style550 from './components/rate550.module.css';
+import style1000 from './components/rate1000.module.css';
 
 
 function App() {
